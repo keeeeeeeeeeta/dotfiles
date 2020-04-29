@@ -9,7 +9,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# Insert your preferred key mappings here.\n\nmap h goBack\nmap l goForward",
+  "keyMappings": "# Insert your preferred key mappings here.\n\nmap h goBack\nmap l goForward\nmap H scrollLeft\nmap L scrollRight",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
