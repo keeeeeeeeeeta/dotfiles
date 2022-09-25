@@ -91,7 +91,8 @@ fi
 # alias ll='ls -alF'
 alias ll='ls -alrhF'
 alias la='ls -A'
-alias l='ls -CF'
+#alias l='ls -CF'
+alias l='ls -CFAa'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -116,3 +117,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias p='pwd'
+alias pwdc='pwd | tr -d '\n' | xclip -sel clip'
+
