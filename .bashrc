@@ -120,4 +120,5 @@ fi
 
 alias p='pwd'
 alias pwdc='pwd | tr -d '\n' | xclip -sel clip'
+alias g='git status'
 
